@@ -1,12 +1,13 @@
 {
-  "name": "sone-template-react",
-  "version": "1.0.0",
-  "repository": "https://github.com/sone-dao/sone-template-react.git",
+  "name": "@sone-dao/sone-react-helmet",
+  "version": "0.1.0",
+  "repository": "https://github.com/sone-dao/sone-react-helmet.git",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c"
   },
   "dependencies": {
+    "@sone-dao/sone-react-placeholder": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
