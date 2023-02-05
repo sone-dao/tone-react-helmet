@@ -8,7 +8,7 @@
     "dev": "node ./dev.js"
   },
   "dependencies": {
-    "@sone-dao/sone-react-placeholder": "^1.1.1",
+    "@sone-dao/sone-react-placeholder": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
