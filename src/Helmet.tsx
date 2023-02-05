@@ -1,13 +1,17 @@
-import Placeholder from '@sone-dao/sone-react-placeholder'
 import React from 'react'
-import styles from './Helmet.module.scss'
+import Hamburger from './components/Hamburger'
+import Account from './components/Account'
+import styles from './styles/Helmet.module.scss'
+import Placeholder from '@sone-dao/sone-react-placeholder'
 
 export interface IHelmetProps {}
 
 const Helmet: React.FC<IHelmetProps> = () => {
   return (
-    <div className={styles.component}>
-      <Placeholder display="Component: Helmet" height="100%" />
+    <div className={styles.helmet}>
+      <Hamburger />
+      <Placeholder display="Component: Search Box" width="300px" />
+      <Account />
     </div>
   )
 }

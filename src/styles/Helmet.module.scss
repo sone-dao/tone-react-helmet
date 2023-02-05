@@ -1,0 +1,25 @@
+.helmet {
+  align-items: center;
+  border: 1px dashed #d23677;
+  display: flex;
+  font-family: var(--font-copy-main-family);
+  font-size: var(--font-copy-main-size);
+  justify-content: space-between;
+  padding: 0.75em;
+}
+
+.hamburger {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.75em;
+}
+
+.account {
+  align-items: center;
+  border-width: 1px;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 0.75em;
+}
