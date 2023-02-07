@@ -12,7 +12,10 @@ const Helmet: React.FC<IHelmetProps> = () => {
   const display = isHidden ? 'none' : 'flex'
 
   useEffect(() => {
-    sub('__TONE_EVENTS__', 'helmet.hide', (hide: boolean) => setHidden(hide))
+    sub('__TONE_EVENTS__', 'helmet.hide', (hide: boolean) => {
+      console.log(`Helmet visibility set to: ${hide}`)
+      setHidden(hide)
+    })
   }, [])
 
   return (
