@@ -2,7 +2,7 @@ import Placeholder from '@sone-dao/sone-react-placeholder'
 import React from 'react'
 import Account from './components/Account'
 import Hamburger from './components/Hamburger'
-import styles from './styles/Helmet.module.scss'
+import styles from './Helmet.module.scss'
 
 export interface IHelmetProps {}
 

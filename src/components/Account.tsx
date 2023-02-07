@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/Helmet.module.scss'
+import styles from '../Helmet.module.scss'
 
 export interface IAccountProps {}
 
