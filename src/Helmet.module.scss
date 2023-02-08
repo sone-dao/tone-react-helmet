@@ -10,7 +10,6 @@
   button {
     align-items: center;
     border-width: 1px;
-    display: flex;
     height: 3em;
     justify-content: center;
     width: 3em;
@@ -20,7 +19,7 @@
 .account {
   display: none;
 
-  @media only screen and (min-width: 500px) {
+  @media (min-width: 500px) {
     display: flex;
   }
 }
@@ -28,7 +27,7 @@
 .search {
   display: none;
 
-  @media only screen and (min-width: 500px) {
+  @media (min-width: 500px) {
     display: flex;
   }
 }
