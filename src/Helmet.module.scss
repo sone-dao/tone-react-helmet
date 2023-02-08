@@ -1,7 +1,9 @@
 .helmet {
   align-items: center;
+  background-color: var(--helmet-background-color);
   border: 1px dashed #d23677;
-  display: flex;
+  color: var(--helmet-color);
+  display: var(--helmet-display);
   font-family: var(--font-copy-main-family);
   font-size: var(--font-copy-main-size);
   justify-content: space-between;
