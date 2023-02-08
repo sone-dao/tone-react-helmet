@@ -4,7 +4,14 @@ import styles from '../Helmet.module.scss'
 export interface IHamburgerProps {}
 
 const Hamburger: React.FC<IHamburgerProps> = () => {
-  return <button className={styles.hamburger}>🍔</button>
+  const openSidebar = () =>
+    document.documentElement.style.setProperty('--sidebar-margin', '0')
+
+  return (
+    <button className={styles.hamburger} onClick={() => openSidebar()}>
+      🍔
+    </button>
+  )
 }
 
 export default Hamburger
