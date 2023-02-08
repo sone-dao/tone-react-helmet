@@ -1,7 +1,7 @@
+import SearchInput from '@sone-dao/tone-react-search-input'
 import React from 'react'
 import Account from './components/Account'
 import Hamburger from './components/Hamburger'
-import SearchInput from './components/SearchInput'
 import styles from './Helmet.module.scss'
 
 export interface IHelmetProps {}
@@ -10,7 +10,7 @@ const Helmet: React.FC<IHelmetProps> = () => {
   return (
     <div className={styles.helmet}>
       <Hamburger />
-      <SearchInput />
+      <SearchInput isMobile={false} />
       <Account />
     </div>
   )
