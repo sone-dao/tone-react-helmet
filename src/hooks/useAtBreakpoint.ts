@@ -13,7 +13,7 @@ const useAtBreakpoint = (breakpoint: number) => {
     }
   }, [])
 
-  return width <= breakpoint
+  return width < breakpoint
 }
 
 export default useAtBreakpoint
